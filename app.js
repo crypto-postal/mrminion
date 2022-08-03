@@ -1,0 +1,12 @@
+const btn = document.querySelector('[data-bs-target="#data"]');
+btn.innerHTML = 'Upload'+ ' <i class="fa-solid fa-arrow-down-short-wide"></i>';
+const icon_bar = document.querySelector('#navi');
+icon_bar.classList.add("icon-bar");
+icon_bar.append(btn);
+const light = document.querySelector('.light');
+light.setAttribute("class","grow");
+const cls = document.querySelectorAll('.icon span');
+cls.forEach(item=> item += item.classList.add("like"));
+const home = document.getElementById('home');
+home.setAttribute('class','top');
+document.querySelector('#home h2').innerHTML = '<i class="fas fa-hand-point-up" style="font-size:48px;color:#176023;"></i>';
