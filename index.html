@@ -16,11 +16,12 @@
 <nav class="navbar navbar-expand-xlg bg-dark navbar-dark my-3 navi">
     <div class="container-fluid p-3">
       <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Avatar Logo" class="rounded-pill border logo" /> </a>
-      <div class="light"><h2>Stamps Gallery</h2></div>
+      
       <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon bg-dark p-4 border"></span>
       </button>
       <div class="collapse navbar-collapse navi" id="collapsibleNavbar">
+	  <div class="light"><h2>Stamps Gallery</h2></div>
         <ul class="navbar-nav mt-3 p-3">          
           
           <li class="nav-item">
@@ -199,12 +200,12 @@
 
 
 <div id="navi">
-  <a href="#fom"><button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#data">Images <i class="fa-solid fa-arrow-down-short-wide"></i></button></a>
+  <a href="#data"><button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#data">Images <i class="fa-solid fa-arrow-down-short-wide"></i></button></a>
 </div>
   
 <center>
   <!-- show to display as default -->
-  <div id="data" class="collapse-show my-3 container-fluid">  
+  <div id="data" class="collapse my-3">  
       <form action="#upload.php" method="post" enctype="multipart/form-data" id="fom">
         <h1><i>Select image to upload:</i></h1>
         
